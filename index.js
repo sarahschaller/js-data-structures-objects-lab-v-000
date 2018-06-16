@@ -19,9 +19,8 @@ function deleteFromDriverByKey(driver, key) {
 
   delete newDriver.key;
 
-  return driver;
 }
 
 function destructivelyDeleteFromDriverByKey(driver, key) {
-
+  delete driver.key;
 }
